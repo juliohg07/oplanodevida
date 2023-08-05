@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Inclua aqui os arquivos e pastas que você deseja incluir no backup -->
+    <!-- Por exemplo, para incluir todo o diretório de dados do aplicativo: -->
+    <!--<include domain="file" path="."/>-->
+</full-backup-content>

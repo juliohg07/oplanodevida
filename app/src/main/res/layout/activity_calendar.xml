@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <!-- Adicione o GridView para exibir os dias do calendário -->
+    <GridView
+        android:id="@+id/calendarGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp" />
+
+    <!-- Adicione o FloatingActionButton para adicionar tarefas -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white"
+        android:backgroundTint="@color/colorPrimary" />
+
+</RelativeLayout>

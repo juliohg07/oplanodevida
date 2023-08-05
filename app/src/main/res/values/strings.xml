@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">O plano de vida</string>
+    <string name="text_adicionar_tarefa">Adicionar Tarefa</string>
+    <string name="text_salvar">Salvar</string>
+    <string name="label_data_tarefa">Data da tarefa:</string>
+    <string name="placeholder_date">dd/mm/aaaa</string>
+    <string name="label_tarefa">Tarefa:</string>
+</resources>
